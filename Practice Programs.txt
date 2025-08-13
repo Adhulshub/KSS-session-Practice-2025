@@ -1,4 +1,5 @@
- 
+ Dictionary Practice Sessions:
+
 1.Python program to create a dictionary with integer keys, and print the keys, values & key-value pairs 
 
 # Create dictionary with integer keys
@@ -89,6 +90,8 @@ name : Adhul
 age : 22
 city : Trivandrum
 
+List Practice Sessions
+
  1.Python Program for Adding, removing elements in the list.
 
 State = ["Tamil Nadu", "Kerala"]
@@ -166,6 +169,7 @@ else:
 OUTPUT:
 
 Duplicates found
+
 
 
 
