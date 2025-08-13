@@ -1,0 +1,175 @@
+ 
+1.Python program to create a dictionary with integer keys, and print the keys, values & key-value pairs 
+
+# Create dictionary with integer keys
+my_dict = {1: "Adhul", 2: "Manoj", 3: "Sarmila"}
+
+# Print keys
+print("Keys:", my_dict.keys())
+
+# Print values
+print("Values:", my_dict.values())
+
+# Print key-value pairs
+print("Items:", my_dict.items())
+
+OUTPUT:
+Keys: dict_keys([1, 2, 3])
+Values: dict_values(['Adhul', 'Manoj', 'Sarmila'])
+Items: dict_items([(1, 'Adhul'), (2, 'Manoj'), (3, 'Sarmila')])
+
+
+2.Python program to create a dictionary with mixed keys, and print the keys, values & key-value pairs
+
+# Create dictionary with mixed keys
+my_dict = {1: "A", "B": 2, 3: "C"}
+
+print("Keys:", my_dict.keys())
+print("Values:", my_dict.values())
+print("Items:", my_dict.items())
+
+OUTPUT
+Keys: dict_keys([1, 'B', 3])
+Values: dict_values(['A', 2, 'C'])
+Items: dict_items([(1, 'A'), ('B', 2), (3, 'C')])
+
+ 3.Python program for accessing elements from a dictionary 
+
+my_dict = {"name": "Adhul", "age": 22, "city": "Trivandrum"}
+
+print("Name:", my_dict["name"])
+print("Age:", my_dict["age"])
+
+OUTPUT
+Name: Adhul
+Age: 22
+
+ 4.Python program for accessing elements from a nested dictionary 
+
+Employees = {
+    "Emp1": {"name": "Adhul", "age": 22},
+    "Emp2": {"name": "Manoj", "age": 21}
+}
+
+print("Emp1 Name:", students["Emp1"]["name"])
+print("Emp2 Age:", students["Emp2"]["age"])
+
+OUTPUT:
+
+Student1 Name: Adhul
+Student2 Age: 21
+
+
+5.Python program to change the dictionary items
+
+my_dict = {"name": "Adhul", "age": 21}
+
+# Change age
+my_dict["age"] = 22
+
+# Add a new item
+my_dict["city"] = "Trivandrum"
+
+print(my_dict)
+
+OUTPUT:
+
+{'name': 'Adhul', 'age': 22, 'city': 'Trivandrum'}
+
+ 6.Loop through a dictionary in Python 
+
+my_dict = {"name": "Adhul", "age": 22, "city": "Trivandrum"}
+
+for key in my_dict:
+    print(key, ":", my_dict[key])
+
+OUTPUT:
+
+name : Adhul
+age : 22
+city : Trivandrum
+
+ 1.Python Program for Adding, removing elements in the list.
+
+State = ["Tamil Nadu", "Kerala"]
+
+# Add
+State.append("Goa")
+State.insert(1, "Karnataka")
+
+# Remove
+State.remove("Kerala")
+popped_item = State.pop()  # Removes last item
+
+print("States:", State)
+print("Popped Item:", popped_item)
+
+OUTPUT:
+States: ['Tamil Nadu', 'Karnataka']
+Popped Item: Goa
+
+2.Python Program to print a list using ‘FOR and IN’ loop. 
+
+fruits = ["apple", "banana", "cherry"]
+
+for fruit in fruits:
+    print(fruit)
+
+OUTPUT:
+
+apple
+banana
+cherry
+
+ 3. Python Program to print a two list using single ‘FOR and IN’ loop. 
+
+list1 = [1, 2, 3]
+list2 = ["A", "B", "C"]
+
+for x, y in zip(list1, list2):
+    print(x, y)
+
+OUTPUT:
+
+1 A
+2 B
+3 C
+
+4.Python Program to input, append and print the list elements. 
+
+my_list = []
+
+n = int(input("Enter number of elements: "))
+for _ in range(n):
+    item = input("Enter element: ")
+    my_list.append(item)
+
+print("Final List:", my_list)
+
+OUTPUT:
+
+Enter number of elements: 3
+Enter element: apple
+Enter element: banana
+Enter element: mango
+Final List: ['apple', 'banana', 'mango']
+
+5.Check all elements are unique or not in Python
+
+my_list = [1, 2, 3, 4, 5, 1]
+
+if len(my_list) == len(set(my_list)):
+    print("All elements are unique")
+else:
+    print("Duplicates found")
+
+OUTPUT:
+
+Duplicates found
+
+
+
+
+
+
+
